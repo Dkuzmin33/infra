@@ -10,7 +10,7 @@
 
     - name: clone the git repository into the roles directory
       git:
-        repo: 'git@srv-gitit.sicon.ru:gitit/ansible.git'
+        repo: 'git@github.com:Dkuzmin33/ansible-roles.git'
         dest: "roles"
         version: master
         force: yes
