@@ -1,2 +1,7 @@
 ---
 swap_size: 1G
+ansible_become: yes
+packages:
+   - mc
+   - htop
+   - rsync

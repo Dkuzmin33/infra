@@ -1,2 +1,7 @@
 ---
 swap_size: 2G
+ansible_become: true
+packages:
+   - mc
+   - git
+   - zip
